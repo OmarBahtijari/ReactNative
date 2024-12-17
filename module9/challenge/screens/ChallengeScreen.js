@@ -1,22 +1,21 @@
 import React from 'react';
-import { View, Text, Image, Button, StyleSheet } from 'react-native';
+import { View, Text, Image, Button, StyleSheet, Alert } from 'react-native';
 
 const ChallengeScreen = () => {
-  const handleButtonPress = () => {
-    alert('Button Pressed!');
+  const handlePress = () => {
+    Alert.alert('Button Pressed!', 'You clicked the button.');
   };
 
-  
   return (
     <View style={styles.container}>
       <Image
-        source={{ uri: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freeiconspng.com%2Fimg%2F2414&psig=AOvVaw26mvq3RjcWZfGp3dgA_ZE-&ust=1733512399779000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKDd54urkYoDFQAAAAAdAAAAABAT' }} // Replace with a valid image URL
+        source={{ uri: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.flaticon.com%2Ffree-icon%2Fprofile_3135715&psig=AOvVaw21_f2fF4QejZwT13yhWY_x&ust=1733943639006000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCNjRq87xnYoDFQAAAAAdAAAAABAJ' }} 
         style={styles.image}
       />
       <Text style={styles.description}>
-        This is a car image it is png, and transparent background.
+        This is the description of the icon image
       </Text>
-      <Button title="Press Me" onPress={handleButtonPress} />
+      <Button title="Click Me" onPress={handlePress} />
     </View>
   );
 };
@@ -26,19 +25,19 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#f5f5f5',
     padding: 16,
+    backgroundColor: '#f5f5f5',
   },
   image: {
     width: 150,
     height: 150,
-    marginBottom: 10,
+    marginBottom: 16,
   },
   description: {
     fontSize: 16,
-    textAlign: 'center',
     color: '#333',
-    marginBottom: 20,
+    marginBottom: 16,
+    textAlign: 'center',
   },
 });
 

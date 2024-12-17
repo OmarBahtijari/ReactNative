@@ -1,11 +1,10 @@
 import { StatusBar } from 'expo-status-bar';
-import { View, Text, Image, Button, StyleSheet } from 'react-native';
-import ChallengeScreen from './screens/ChallengeScreen';
+import { StyleSheet, Text, View } from 'react-native';
+import Posts from './screens/Posts';
 
 export default function App() {
   return (
-    <ChallengeScreen>
-    </ChallengeScreen>
+   <Posts/>
   );
 }
 
@@ -17,4 +16,3 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
 });
-
