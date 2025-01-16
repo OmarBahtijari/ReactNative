@@ -1,0 +1,26 @@
+[
+    {
+        "id":"1",
+        "name":"Disneyland",
+        "country":"France",
+        "description":"Disneyland is for kids and adults"
+    },
+    {
+        "id":"2",
+        "name":"Eiffel Tower",
+        "country":"France",
+        "description":"It is known as one of the most famous landmarks in the world"
+    },
+    {
+        "id":"3",
+        "name":"Statue of Liberty",
+        "country":"USA",
+        "description":"It is recognized as a universal symbol of freedom and democracy"
+    },
+    {
+        "id":"4",
+        "name":"Great Wall of China",
+        "country":"China",
+        "description":"The Great Wall of China is the longest man-made structure ever designed or built in history."
+    }
+]

@@ -1,0 +1,76 @@
+[
+    {
+        "id": 1,
+        "name": "Nike Air Jordan 1 Retro",
+        "category": "Sneakers",
+        "price": 200.00,
+        "description": "Classic Jordan 1 Retro sneakers with iconic design",
+        "stock": 10,
+        "image": "https://images.unsplash.com/photo-1618678941818-25d18d8c3b70?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=400"
+    },
+    {
+        "id": 2,
+        "name": "Adidas Yezzy Boost 350",
+        "category": "Sneakers",
+        "price": 220.00,
+        "description": "The Yezzy Boost 350 features a comfortable Primeknit upper and Boost cushioning",
+        "stock": 8,
+        "image": "https://images.unsplash.com/photo-1630651810679-3732b1d56844?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=400"
+
+    },
+    {
+        "id": 3,
+        "name": "PlayStation 5 Console",
+        "category": "Gaming",
+        "price": 500.00,
+        "description": "The latest PlayStation console with ultra-high-speed SSD and stuning graphics",
+        "stock": 5,
+        "image": "https://images.unsplash.com/photo-1615800002759-7b37295c8ed3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=400"
+
+    },
+    {
+        "id": 4,
+        "name": "Xbox Series X",
+        "category": "Gaming",
+        "price": 500.00,
+        "description": "Powerful gaming console with 12 teraflops of processing power and 4K graphics",
+        "stock": 6,
+        "image": "https://images.unsplash.com/photo-1606813907693-1db16c4dfc4b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=400"
+    },
+    {
+        "id": 5,
+        "name": "Vans Old Skool",
+        "category": "Sneakers",
+        "price": 70.00,
+        "description": "Timeless Vans Old Skool sneakers with durable canvas and suede uppers.",
+        "stock": 20,
+        "image": "https://images.unsplash.com/photo-1607478907137-02ab9e14e053?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=400"
+    },
+    {
+        "id": 6,
+        "name": "SteelSeries Arctis 7 Wireless Headset",
+        "category": "Gaming",
+        "price": 150.00,
+        "description": "Award-winning gaming headset with 2.4GHz wireless connectivity and long battery life",
+        "stock": 15,
+        "image": "https://images.unsplash.com/photo-1616002639275-b9a6e1b2465c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=400"
+    },
+    {
+        "id": 7,
+        "name": "Puma RS-X3 Puzzle",
+        "category": "Sneakers",
+        "price": 110.00,
+        "description": "Retro-inspired Puma RS-X3 sneakers with bold colors and extra comfort.",
+        "stock": 12,
+        "image": "https://images.unsplash.com/photo-1593032457863-00fe3f1d55a0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=400"
+    },
+    {
+        "id": 8,
+        "name": "Razer Naga Pro Wireless Mouse",
+        "category": "Gaming",
+        "price": 130.00,
+        "description": "Modular wireless gaming mouse with customizable",
+        "stock": 18,
+        "image": "https://images.unsplash.com/photo-1610951834525-3f6b569fc7e5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=400"
+    }
+]
