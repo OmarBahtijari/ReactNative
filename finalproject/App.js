@@ -5,20 +5,25 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator} from '@react-navigation/stack';
 import HomeScreen from './screens/HomeScreen';
 import BreedSelector from './screens/BreedSelector';
+import DogImageViewer from './screens/DogImageViewer';
 
 const Stack = createStackNavigator();
 
-export default function App() {
+const App = () => {
   return (
-    <HomeScreen/>
+    <NavigationContainer>
+      <Stack.Navigator
+        screenOptions={{
+          headerStyle: { backgroundColor: '#007bff' },
+          headerTintColor: '#fff',
+        }}
+      >
+        <Stack.Screen name="Home" component={HomeScreen} />
+        <Stack.Screen name="Dog Image Viewer" component={DogImageViewer} />
+        <Stack.Screen name="Breed Selector" component={BreedSelector} />
+      </Stack.Navigator>
+    </NavigationContainer>
   );
-}
+};
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+export default App;
