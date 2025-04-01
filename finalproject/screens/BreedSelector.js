@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { View, Text, Image, Picker, TouchableOpacity, StyleSheet } from 'react-native';
+import { View, Text, Image, TouchableOpacity, StyleSheet } from 'react-native';
+import { Picker } from '@react-native-picker/picker';
 
 const BreedSelector = () => {
   const [breeds, setBreeds] = useState([]);
@@ -69,12 +70,12 @@ const styles = StyleSheet.create({
     marginBottom: 10,
   },
   picker: {
-    width: 200,
+    width: 250,
     height: 50,
-    marginBottom: 20,
+    marginBottom: 200,
   },
   button: {
-    backgroundColor: '#007bff',
+    backgroundColor: '#000000',
     padding: 10,
     borderRadius: 5,
   },
@@ -84,8 +85,8 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
   },
   image: {
-    width: 300,
-    height: 300,
+    width: 250,
+    height: 250,
     marginTop: 20,
   },
 });

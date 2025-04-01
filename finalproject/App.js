@@ -1,29 +1,21 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
-import { TouchableOpacity } from 'react-native';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { NavigationContainer } from '@react-navigation/native';
-import { createStackNavigator} from '@react-navigation/stack';
 import HomeScreen from './screens/HomeScreen';
-import BreedSelector from './screens/BreedSelector';
 import DogImageViewer from './screens/DogImageViewer';
+import BreedSelector from './screens/BreedSelector';
+import FavoritesScreen from './screens/FavoritesScreen';
 
-const Stack = createStackNavigator();
+const Stack = createNativeStackNavigator();
 
-const App = () => {
+export default function App() {
   return (
     <NavigationContainer>
-      <Stack.Navigator
-        screenOptions={{
-          headerStyle: { backgroundColor: '#007bff' },
-          headerTintColor: '#fff',
-        }}
-      >
+      <Stack.Navigator initialRouteName="Home">
         <Stack.Screen name="Home" component={HomeScreen} />
-        <Stack.Screen name="Dog Image Viewer" component={DogImageViewer} />
-        <Stack.Screen name="Breed Selector" component={BreedSelector} />
+        <Stack.Screen name="DogImageViewer" component={DogImageViewer} />
+        <Stack.Screen name="BreedSelector" component={BreedSelector} />
+        <Stack.Screen name="Favorites" component={FavoritesScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );
-};
-
-export default App;
+}
